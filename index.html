@@ -15,22 +15,57 @@
           rel="stylesheet"
           href="https://fonts.googleapis.com/css?family=Sofia"
         />
-        <title>Static position</title>
+        <title>Home</title>
+      <script>
+        function displayTime(){
+    var dateTime = new Date();
+    var hrs = dateTime.getHours();
+    var min = dateTime.getMinutes();
+    var sec = dateTime.getSeconds();
+    var session = document.getElementById('session');
+
+    if(hrs >= 12){
+        session.innerHTML = 'PM';
+    }else{
+        session.innerHTML = 'AM';
+    }
+
+    if(hrs > 12){
+        hrs = hrs - 12;
+    }
+
+    document.getElementById('hours').innerHTML = hrs;
+    document.getElementById('minutes').innerHTML = min;
+    document.getElementById('seconds').innerHTML = sec;
+}
+setInterval(displayTime, 10);
+      </script>
+      
       </head>
 
       <body>
         <ul style="text-align: center; height: 150px">
-          <li><a href="#" >Home</a></li>
+          <li><a href="index.html" >Home</a></li>
           <li><a href="aboutus.html" target="_blank">About Us</a></li>
-          <li><a href="gallery.html">Gallery</a></li>
-          <li><a href="#">Services</a></li>
-          <li><a href="#">Portfolio</a></li>
-          <li><a href="#">Log-in/Sign-up</a></li>
+          <li><a href="gallery.html" target="_blank">Gallery</a></li>
+          <li><a href="shopnow.html" target="_blank">Shop Now</a></li>
+          <li><a href="login.html" target="_blank">Log-in/Register</a></li>
         </ul>
+        <div class="its">
+          <h1> It's</h1>
+        </div>
+        <div class="container">
+          <span id="hours">00</span>
+          <span>:</span>
+          <span id="minutes">00</span>
+          <span>:</span>
+          <span id="seconds">00</span>
+          <span id="session">AM</span>
+      </div>
         <hr
           style="
             height: 70px;
-            background-color: rgb(32, 141, 32);
+            background-color: #A6CF98;
             border:1 solid;
           "
         />
@@ -137,6 +172,15 @@
 
 
     </div>
+    <div class="sec_nav">
+      <p>
+        <a href="index.html"  >Home</a>&nbsp;&nbsp;&nbsp;
+        <a href="aboutus.html" target="_blank">About Us</a>&nbsp;&nbsp;&nbsp;
+        <a href="gallery.html" target="_blank">Gallery</a>&nbsp;&nbsp;&nbsp;
+        <a href="shopnow.html" target="_blank">Shop Now</a>&nbsp;&nbsp;&nbsp;
+        <a href="login.html" target="_blank">Log-in/Register</a>
+    </p>
+        </div>
     
     
 

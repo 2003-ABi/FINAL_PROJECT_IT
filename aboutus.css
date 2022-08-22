@@ -13,7 +13,7 @@ body {
   ul {
     padding: 2px;
     list-style: none;
-    background: #9aab21;
+    background: #557C55;
     height: 55px !important;
   }
   ul li {
@@ -48,7 +48,7 @@ top:30px;
  }
  .snd{
     height: 300px;
-    background-color:rgb(32, 141, 32);
+    background-color:#A6CF98;
     font-size:36px
  }
  .snd h2{
@@ -59,7 +59,7 @@ top:30px;
 
  }
  .thrr{
-  background-color: #9aab21;
+  background-color: #E4E9BE;
   height:900px;
  }
  .thrr img{
@@ -76,7 +76,7 @@ top:30px;
     position: absolute;
     right: 100px;
     top: 1150px;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
 
 }
 .parallax{
@@ -93,6 +93,7 @@ top:30px;
   text-align: center;
   color: #000000;
 }
+
 
 .one img{
   border-radius: 50%;
@@ -166,7 +167,7 @@ top:30px;
   top:4000px;
   width: 100%;
   height: 300px;
-  background-color:#b17c20c8;
+  background-color:#CA955C ;
   text-align: center;
   font-family: sans-serif;
 
@@ -196,4 +197,18 @@ top:30px;
   color: rgb(255, 255, 255);
   background-color: transparent;
   text-decoration: underline;
+}
+.sec_nav{
+  background-color:#CA955C ;
+ width: 100%;
+ height: 30px;
+ position: relative;
+ bottom: 29px;
+ border: none;
+
+}
+.sec_nav p {
+  position: relative;
+  bottom: 20px;
+  right: 15px;
 }

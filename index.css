@@ -5,12 +5,13 @@ body {
     font-family: system-ui, -apple-system, BlinkMacSystemFont,
       "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans",
       "Helvetica Neue", sans-serif;
+      background-color: #E4E9BE;
   }
 
   ul {
     padding: 2px;
     list-style: none;
-    background: #9aab21;
+    background: #557C55;
     height: 55px !important;
   }
   ul li {
@@ -27,12 +28,30 @@ body {
     background: #be9143c8;
   }
 
-  
-
+  .container{
+    padding: 30px;
+    color: #224B0C;
+    font-weight: bold;
+    position: absolute;
+    top: 98px;
+    right:250px;
+    transform: translate(50%, -50%);
+    font-size: 35px;
+    white-space: nowrap;
+    width: 10px;
+    height: 30px;
+}
+.its{
+  position: absolute;
+  right: 275px;
+  top:68px;
+  color: #224B0C;
+  font-size: 25px;
+}
   .bgmain{
     width:100%;
     height: 60%;
-    background:radial-gradient(#ffffff9a,#be9143);
+    background:radial-gradient(#ffffff9a,#C7D36F);
   }
  
 
@@ -50,7 +69,7 @@ body {
   }
 
 .second{
-    background-color: rgb(32, 141, 32);
+    background-color: #A6CF98;
     height: 200px;
     border-color: white;
 
@@ -92,7 +111,7 @@ body {
     border:1 solid;
     border-color:#ffffffc8;
     width: 100%;
-    background-color: rgb(32, 141, 32);
+    background-color: #557C55;
     height: 150px;
   }
   .last h1{
@@ -127,7 +146,7 @@ body {
   position: relative;
   width: 100%;
   height: 300px;
-  background-color:#b17c20c8;
+  background-color:#CA955C;
   text-align: center;
   font-family: sans-serif;
 
@@ -159,4 +178,18 @@ body {
   color: rgb(255, 255, 255);
   background-color: transparent;
   text-decoration: underline;
+}
+.sec_nav{
+  background-color:#CA955C ;
+ width: 100%;
+ height: 30px;
+ position: relative;
+ bottom: 29px;
+ border: none;
+
+}
+.sec_nav p {
+  position: relative;
+  bottom: 20px;
+  right: 15px;
 }

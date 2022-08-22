@@ -1,105 +1,116 @@
-*{margin: 0;
-    padding: 0;}
-    body {
-        font-size: 20px;
-        font-family: system-ui, -apple-system, BlinkMacSystemFont,
-          "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans",
-          "Helvetica Neue", sans-serif;    
-      }
-    
-      ul {
-        padding: 2px;
-        list-style: none;
-        background: #9aab21;
-        height: 55px !important;
-      }
-      ul li {
-        display: inline-block;
-      }
-      ul li a {
-        display: block;
-        padding: 15px 15px;
-        color: #ffffff;
-        text-decoration: rgb(255, 255, 255);
-      }
-      ul li a:hover {
-        color: #000000;
-        background: #be9143c8;
-      }
-      .bz{
-        background-image: linear-gradient(rgba(255, 255, 255, 0.262),rgba(255, 255, 255, 0.405)),url(images/foorest.jpg);
-    
+* {
+  margin: 0;
+  padding: 0;
+}
 
-        /*specific height for fixed background*/
-        min-height: 700px;
-      
-     
-        background-attachment: fixed;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        width: 100%;
-        height: 200vh;
-        
-      }
-      .grd{
-        
-        display: grid;
-        position: relative;
-        grid-template-columns: repeat(4,1fr);
-        grid-gap: 10px;
-        width:80%;
-        left:200px;
-        top:80px;
-        grid-gap:4%;
-        
-      }
-      .grd img{
-        width:100%;
-        height: 100%;
-        border-radius: 50%;
-        border:5px solid white;
-      }
-      .grd p{
-        text-align: center;
-        color: #000000;
-        font-size:40px;
-        background-color:rgb(221, 219, 219);
-      }
-      .footer{
-        position: relative;
-        width: 100%;
-        height: 300px;
-        background-color:#b17c20c8;
-        text-align: center;
-        font-family: sans-serif;
-      
-      }
-      
-      
-      .info{
-        width: 94%;
-        padding: 50px;
-        display: flex;
-        top:50px;
-        justify-content: space-between;
-      }
-      
-      .info h1{
-        color: #444b0f;
-      }
-      
-      .info p{
-        color: #fff;
-      }
-      
-      .footer p{
-        color: white;
-      }
-      
-      
-      .footer a {
-        color: rgb(255, 255, 255);
-        background-color: transparent;
-        text-decoration: underline;
-      }
+body {
+  font-size: 20px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans",
+    "Helvetica Neue", sans-serif;
+  background-color: #E4E9BE;
+}
+
+ul {
+  padding: 2px;
+  list-style: none;
+  background: #557C55;
+  height: 55px !important;
+}
+
+ul li {
+  display: inline-block;
+}
+
+ul li a {
+  display: block;
+  padding: 15px 15px;
+  color: #ffffff;
+  text-decoration: rgb(255, 255, 255);
+}
+
+ul li a:hover {
+  color: #000000;
+  background: #be9143c8;
+}
+
+.grd {
+
+  display: grid;
+  position: relative;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+  width: 80%;
+  left: 200px;
+  top: 80px;
+  grid-gap: 4%;
+
+}
+
+.grd img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  border: 5px solid white;
+}
+
+.grd p {
+  text-align: center;
+  color: #000000;
+  font-size: 40px;
+  background-color: rgb(221, 219, 219);
+}
+
+.footer {
+  position: relative;
+  width: 100%;
+  height: 300px;
+  background-color: #CA955C ;
+  text-align: center;
+  font-family: sans-serif;
+  top: 600px
+}
+
+
+.info {
+  width: 94%;
+  padding: 50px;
+  display: flex;
+  top: 50px;
+  justify-content: space-between;
+}
+
+.info h1 {
+  color: #444b0f;
+}
+
+.info p {
+  color: #fff;
+}
+
+.footer p {
+  color: white;
+}
+
+
+.footer a {
+  color: rgb(255, 255, 255);
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.sec_nav {
+  background-color: #CA955C ;
+  width: 100%;
+  height: 30px;
+  position: relative;
+  bottom: 29px;
+  border: none;
+
+}
+
+.sec_nav p {
+  position: relative;
+  bottom: 20px;
+  right: 15px;
+}

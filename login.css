@@ -7,12 +7,13 @@ body {
     font-family: system-ui, -apple-system, BlinkMacSystemFont,
       "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans",
       "Helvetica Neue", sans-serif;
+      background-color: #E4E9BE;
 }
 
   ul {
     padding: 2px;
     list-style: none;
-    background: #9aab21;
+    background: #557C55;
     height: 55px !important;
   }
   ul li {
@@ -30,17 +31,18 @@ body {
   }
   .immg img{
     width:10%;
-    position: absolute;
-    right: 0;
+    position:absolute;
+    right: 30px;
     top: 160px;
   }
   .login{
     height: 50px;
   width: 700px;
-  background-color: #9aab21;
+  background-color: #5BB318;
   position: relative;
   left:70px;
   top:100px;
+  
 }
 .login p {
 text-align: center;
@@ -51,28 +53,217 @@ font-size: 40px;
 .reg{
   height: 50px;
   width: 700px;
-  background-color: #d3e266;
+  background-color: #2B7A0B;
   position: absolute;
   right:250px;
-  top:231px;
+  top:288px;
 }
 .reg p {
   text-align: center;
   position: relative;
-  color: #ffffff;
+  color: #f3f3f3;
   font-size: 40px;
   }
-  label{
+.formbox1{
+  width: 688px;
+  height: 680px;
+  position: relative;
+  margin: auto;
+  background-color: #F7F6DC;
+  padding: 5px;
+  right: 0px;
+  
+}
+.formbox2{
+  width: 690px;
+  height: 680px;
+  position: relative;
+  margin: auto;
+  background-color: #F7F6DC;
+  padding: 5px;
+  top:103px;
+  left: 351px;
+ 
+}
+.log-in{
+  top: 40px;
+  position: absolute;
+  width: 180px;
+  left: 5px;
+ 
+}
+.input-field{
+  width: 170%;
+  padding: 20px 60px;
+  margin: 60px 100px;
+  border-bottom: 5px solid green;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  outline-color: #9aab21;
+  background: #E3FCBF;
+  border-radius: 8%;
+
+}
+
+input::placeholder {
+  font: 20px sans-serif;
+  text-align: center;
+}
+.ck-bx{
+  margin: 30px 10px 30px 0px;
+  position: relative;
+  left: 190px;
+  width: 30px;
+  height: 30px;
+
+}
+.submt-btn{
+  padding: 20px 60px;
+  cursor: pointer;
+  display: block;
+  margin: auto;
+ background-color: rgb(184, 216, 164);
+ border: 0;
+ position: relative;
+ left: 210px;
+ border-radius: 15px;
+ }
+ .field1{
+  width: 15%;
+  padding: 20px 60px;
+  margin: 60px 100px;
+  border-bottom: 5px solid green;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  outline-color: #9aab21;
+  background: #E3FCBF;
+  border-radius: 8%;
+  position: relative;
+  right: 60px;
+  top: 20px;
+ }
+.field2{
+  width: 15%;
+  padding: 20px 60px;
+  margin: 60px 100px;
+  border-bottom: 5px solid green;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  outline-color: #9aab21;
+  background: #E3FCBF;
+  border-radius: 8%;
+  position: relative;
+  left: 300px;
+  bottom:160px
+ }
+ .field3{
+  width: 67%;
+  padding: 20px 60px;
+  margin: 60px 100px;
+  border-bottom: 5px solid green;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  outline-color: #9aab21;
+  background: #E3FCBF;
+  border-radius: 8%;
+  position: relative;
+ right: 60px;
+ bottom: 215px;
+}
+.field4{
+    width: 70%;
+    padding: 20px 60px;
+    margin: 60px 100px;
+    border-bottom: 5px solid green;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    outline-color: #9aab21;
+    background: #E3FCBF;
+    border-radius: 8%; 
     position: relative;
-    font-size: 30px;
-    left: 250px;
-    top:20px;
-  }
-  input {
-    display: block;
-    width: 500px;
-    padding: 20px 20px;
-    position:relative;
-    top:180px;
-    left:150px;
+    right: 60px;
+    bottom: 270px;
+}
+.field5{
+  width: 70%;
+  padding: 20px 60px;
+  margin: 60px 100px;
+  border-bottom: 5px solid green;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  outline-color: #9aab21;
+  background: #E3FCBF;
+  border-radius: 8%; 
+  position: relative;
+  right: 65px;
+  bottom: 340px;
+}
+.register-btn{
+  padding: 20px 70px;
+  cursor: pointer;
+  display: block;
+  margin: auto;
+ background-color: rgb(184, 216, 164);
+ border: 0;
+ border-radius: 15px; 
+ position: relative;
+ bottom: 370px;
+}
+.footer{
+  position: relative;
+  top:300px;
+  width: 100%;
+  height: 300px;
+  background-color:#CA955C;
+  text-align: center;
+  font-family: sans-serif;
+
+}
+
+
+.info{
+  width: 94%;
+  padding: 50px;
+  display: flex;
+  top:50px;
+  justify-content: space-between;
+}
+
+.info h1{
+  color: #444b0f;
+}
+
+.info p{
+  color: #fff;
+}
+
+.footer p{
+  color: white;
+}
+
+
+.footer a {
+  color: rgb(255, 255, 255);
+  background-color: transparent;
+  text-decoration: underline;
+}
+.sec_nav{
+  background-color:#CA955C ;
+ width: 100%;
+ height: 30px;
+ position: relative;
+ bottom: 29px;
+ border: none;
+
+}
+.sec_nav p {
+  position: relative;
+  bottom: 20px;
+  right: 15px;
 }
